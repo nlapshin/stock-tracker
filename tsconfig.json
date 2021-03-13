@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+    "types": [
+      "node",
+			"mocha",
+			"chai"
+    ],
+    "lib": [
+      "es2020", "esnext.asynciterable"
+    ],
+    "paths": {
+      "@st/ci": ["packages/ci"]
+    },
+  },
+  "include": [
+    "packages/**/*"
+  ],
+  "exclude": [
+    ".git",
+  ]
+}

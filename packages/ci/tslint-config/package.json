@@ -1,0 +1,13 @@
+{
+  "name": "@st/tslint-config",
+  "version": "1.0.0",
+  "description": "Stock tracker TSLint config",
+  "keywords": [],
+  "author": "Nikolay Lapshin",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
